@@ -9,7 +9,7 @@ export const newUser = async(req,res)=>{
       data: data,
       message: 'User Created Successfully'
     })
-  } catch (error) {
+  } catch (error) { 
     res.status(HttpStatus.BAD_REQUEST).json({
       message: error.message 
     })

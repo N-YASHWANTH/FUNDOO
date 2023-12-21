@@ -5,4 +5,4 @@ const router = express.Router()
 
 router.post('/registerUser',userController.newUser)
 
-export default router 
+export default router  

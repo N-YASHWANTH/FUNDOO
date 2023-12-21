@@ -7,7 +7,7 @@ export const registerUser = async(body)=>{
   if(data!=null){
     throw new Error ('User already exists');
   }
-  
+   
   else{
     const data=await User.create(body)
     return data
