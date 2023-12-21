@@ -77,3 +77,5 @@ info: ::1 - - [21/Dec/2023:07:51:16 +0000] "POST /api/v1/users/registerUser HTTP
 
 info: ::1 - - [21/Dec/2023:07:51:49 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 400 33 "-" "PostmanRuntime/7.36.0"
 
+info: ::1 - - [21/Dec/2023:07:52:46 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 400 44 "-" "PostmanRuntime/7.36.0"
+
