@@ -11,7 +11,7 @@ export const newUser = async(req,res)=>{
     })
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({
-      message: error.message
+      message: error.message 
     })
   }
 }

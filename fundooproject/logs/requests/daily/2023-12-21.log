@@ -2,3 +2,7 @@ info: ::1 - - [21/Dec/2023:07:00:29 +0000] "POST /api/v1/users/registerUser HTTP
 
 info: ::1 - - [21/Dec/2023:07:01:08 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 400 62 "-" "PostmanRuntime/7.36.0"
 
+info: ::1 - - [21/Dec/2023:07:02:26 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 201 287 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [21/Dec/2023:07:02:29 +0000] "POST /api/v1/users/registerUser HTTP/1.1" 400 33 "-" "PostmanRuntime/7.36.0"
+
