@@ -8,10 +8,11 @@ export const loginUser = async(body)=>{
   if(!data){
     throw new Error ('User doesnot exists');
   }
-  else if(!bcrypt.compare(data.password,body.password)){
+  const rs=await bcrypt.compare(body.password,data.password)
+  if(!rs){
     throw new Error('Invalid password')
   }
-  else{
-    return data
-  }
+  return data
 }
+
+
